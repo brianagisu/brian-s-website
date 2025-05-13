@@ -1,0 +1,143 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f2f2f2;
+  font-family: Arial, sans-serif;
+        text-align: center;
+    }
+
+.slideshow-container {
+  position: relative;
+  max-width: 100%;
+  margin: 40px auto;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+.slide img {
+  width: 50%;
+  height: auto;
+  margin: 50px;
+  border-radius: 5px;
+}
+
+.dots {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  gap: 8px; /* Adds spacing between dots */
+  height: 12px;
+  width: 12px;
+  background-color: #bbb;
+  border-radius: 50%;
+  transition: background-color 0.3s;
+}
+.dot.active {
+  background-color:green;
+}
+/* Navigation bar styling */
+.navbar {
+  background-color: green;
+  overflow: hidden;
+}
+
+.navbar ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: left;
+}
+
+.navbar li {
+  margin: 0;
+}
+
+.navbar a {
+  display: block;
+  color:white;
+  text-decoration: none;
+  padding: 14px 20px;
+  transition: background-color 0.3s;
+}
+
+.navbar a:hover {
+  background-color:greenyellow;
+}
+
+section {
+  padding: 50px;
+  text-align: center;
+  background-color: #f4f4f4;
+  border-bottom: 1px solid #ddd;
+}
+h1 {
+  color: green;
+  text-decoration: none;
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+h2 {
+  text-decoration: none;
+  color: black;
+  font-size: 2em;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  margin-bottom: 20px;
+  counter-increment: fallback;
+  counter-reset: default;
+  font-family: 'Arial', sans-serif;
+  text-align: center;
+
+}
+.slideshow-container {
+  position: relative;
+  max-width: 100%;
+}
+.slide img {
+  width: 50%;
+  height: auto;
+  margin: 50px;
+  border-radius: 5px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  transition: transform 0.5s ease;
+
+}
+.dots {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  gap: 8px; 
+}
+footer {
+  background-color: #333;
+  color:black;
+  text-align: center;
+  padding: 10px;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+.about h2, .services h2, .contact h2, .resources h2 {
+  color: #333;
+}
+.social-media {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.social-media li {
+  display: inline;
+  margin-right: 10px;
+}
+.social-media a {
+  color: grey;
+  text-decoration: none;
+}
